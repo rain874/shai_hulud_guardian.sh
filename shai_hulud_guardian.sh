@@ -17,7 +17,7 @@
 
 LOGFILE="shai_hulud_guardian_$(date +%Y%m%d_%H%M%S).log"
 # URL zu deiner GitHub Raw Datei mit kompromittierten Paketen (jede Zeile: paketname@version)
-COMPROMISED_LIST_URL="https://raw.githubusercontent.com/username/repo/branch/path/to/kompromittierte_pakete.txt"
+COMPROMISED_LIST_URL="https://github.com/rain874/shai_hulud_guardian.sh/blob/main/npm_compromised.txt"
 TEMPFILE=$(mktemp)
 MATCHES=0
 
